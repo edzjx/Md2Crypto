@@ -211,12 +211,12 @@ Console.WriteLine($"{i:d9}:{txt}");
 
 【4】参考网上的java MD2 demo Java [MD2加密算法](http://www.what21.com/sys/view/java_java-secure_1456896048512.html)
 
-【6】使用Mono加密库官网介绍 [Cryptography](https://www.mono-project.com/archived/cryptography/#assembly-monosecuritywin32)
+【5】使用Mono加密库官网介绍 [Cryptography](https://www.mono-project.com/archived/cryptography/#assembly-monosecuritywin32)
 
-【7】参考CSharp Cryptography库使用代码（此网站可以搜索代码很方便）  [C# (CSharp) Mono.Security.Cryptography MD2.ComputeHash Examples](https://csharp.hotexamples.com/examples/Mono.Security.Cryptography/MD2/ComputeHash/php-md2-computehash-method-examples.html)
+【6】参考CSharp Cryptography库使用代码（此网站可以搜索代码很方便）  [C# (CSharp) Mono.Security.Cryptography MD2.ComputeHash Examples](https://csharp.hotexamples.com/examples/Mono.Security.Cryptography/MD2/ComputeHash/php-md2-computehash-method-examples.html)
 
-【8】参考MSDN MD5官方文档 [MD5 类](https://docs.microsoft.com/zh-cn/dotnet/api/system.security.cryptography.md5?view=netframework-4.8) 代码参考的 [SHA256 类](https://docs.microsoft.com/zh-cn/dotnet/api/system.security.cryptography.sha256?view=netframework-4.8)
+【7】参考MSDN MD5官方文档 [MD5 类](https://docs.microsoft.com/zh-cn/dotnet/api/system.security.cryptography.md5?view=netframework-4.8) 代码参考的 [SHA256 类](https://docs.microsoft.com/zh-cn/dotnet/api/system.security.cryptography.sha256?view=netframework-4.8)
 
-【9】[python3中digest()和hexdigest()区别](https://www.cnblogs.com/yrxns/p/7727471.html)
+【8】[python3中digest()和hexdigest()区别](https://www.cnblogs.com/yrxns/p/7727471.html)
 
-【10】 [字符编码之ASCII、UTF-8、UTF-16的区别](https://blog.csdn.net/adminlpx/article/details/79304078)
+【9】 [字符编码之ASCII、UTF-8、UTF-16的区别](https://blog.csdn.net/adminlpx/article/details/79304078)
