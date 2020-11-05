@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/MD2Hash/include/global.h
+
+F:/MD2Hash/include/md2.h
+
+F:/MD2Hash/src/mddriver.c
+stdio.h
+-
+time.h
+-
+string.h
+-
+../include/global.h
+F:/MD2Hash/include/global.h
+../include/md2.h
+F:/MD2Hash/include/md2.h
+md4.h
+F:/MD2Hash/src/md4.h
+md5.h
+F:/MD2Hash/src/md5.h
+

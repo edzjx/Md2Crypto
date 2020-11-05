@@ -1,0 +1,4 @@
+C:\Users\edzjx\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" F:\MD2Hash
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/MD2Hash/cmake-build-debug

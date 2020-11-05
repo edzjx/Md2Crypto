@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/MD2Hash_C/out/build/x64-Debug (默认值)
+/demo_Java/out/production/testJava/com/company
