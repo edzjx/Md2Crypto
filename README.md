@@ -42,7 +42,7 @@ from Crypto.Hash import MD2
 if \_\_name\_\_ == '\_\_main\_\_':  
 #print_hi('PyCharm')  
 txt = "39"  
-\# md2加密1亿次  
+\# md2加密2亿次  根据实际题目修改此处的
 for i in range(200000000):  
 txt = MD2.new(txt.encode("utf8")).hexdigest()  
 print(txt)
@@ -57,19 +57,19 @@ package com.company;
 import org.apache.commons.codec.digest.DigestUtils;  
 public class Main {  
 public static void main(String\[\] args) {  
-String hash="";  
+ 
 String txt ="39";
 
 ```
-    // MD2  
+    // MD2   根据题目在是1亿还是2亿进行修改
     for(int i=0;i<200000000;i++){  
         ///   public static byte\[\] md2(String data) {  
         //        return md2(StringUtils.getBytesUtf8(data));  
         //    }  
-        hash = DigestUtils.md2Hex(txt);  
+        txt = DigestUtils.md2Hex(txt);  
     }  
 
-    System.out.println(hash);  
+    System.out.println(txt);  
 
 }  
 
@@ -169,7 +169,7 @@ Console.WriteLine($"{i:d9}:{txt}");
 
 **环境：**
 
-- IDE:pycharm
+- IDE:pycharm 或者visual studio 2019
 - 构建：IDE内置
 - py3环境：vs2019自带python环境 py3.7 x64
 
@@ -192,7 +192,7 @@ Console.WriteLine($"{i:d9}:{txt}");
 
 3.4 demo_c#
 
-- IDE:Rider
+- IDE:Rider 或者 visual studio 2019
 - 构建：IDE内置
 - Dotnet环境：netcore3.1
 

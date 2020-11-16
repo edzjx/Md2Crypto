@@ -6,18 +6,18 @@ public class Main {
 
 
     public static void main(String[] args) {
-        String hash="";
+        
         String txt ="39";
 
-        // MD2
-        for(int i=0;i<100000000;i++){
+        // MD2  根据题目要求2亿还是1亿
+        for(int i=0;i<200000000;i++){
             ///   public static byte[] md2(String data) {
             //        return md2(StringUtils.getBytesUtf8(data));
             //    }
-            hash = DigestUtils.md2Hex(txt);
+            txt = DigestUtils.md2Hex(txt);
         }
 
-        System.out.println(hash);
+        System.out.println(txt);
 
     }
 }

@@ -9,9 +9,10 @@ namespace testdemo
         static void Main(string[] args)
         {
             string txt = "39";
-            DateTime d1;
-            DateTime d2;
-            d1 = DateTime.UtcNow;
+            DateTime d1; //保存开始时间
+            DateTime d2; //保存程序当前运行时间
+            d1 = DateTime.UtcNow; 
+            //循环次数根据题目时间情况修改
             for (int i = 0; i < 200000000; i++)
             {
                 txt = Md2Crypto(txt);
